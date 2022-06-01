@@ -10,6 +10,6 @@ SOURCES += main.cpp
 
 
 # Default rules for deployment.
-qnx: target.path = /tmp/mateusur/bin
-else: unix:!android: target.path = /opt/mateusur/bin
-!isEmpty(target.path): INSTALLS += target
+# qnx: target.path = /tmp/mateusur/bin
+# else: unix:!android: target.path = /opt/mateusur/bin
+# !isEmpty(target.path): INSTALLS += target
